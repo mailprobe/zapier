@@ -102,7 +102,7 @@ module.exports = {
       { key: 'smtp_code', label: 'SMTP reply code', type: 'integer' },
       { key: 'smtp_enhanced_code', label: 'SMTP enhanced status code', type: 'string' },
       { key: 'retry_after', label: 'Retry after (seconds)', type: 'integer' },
-      { key: 'mx_records', label: 'MX records', type: 'string' },
+      { key: 'mx_records', label: 'MX records', type: 'string', list: true },
     ],
   },
 };
