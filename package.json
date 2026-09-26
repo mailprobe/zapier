@@ -1,0 +1,28 @@
+{
+  "name": "zapier-mailprobe",
+  "version": "1.0.0",
+  "description": "MailProbe is an email verification API that checks in real time whether an email address exists and can receive mail.",
+  "homepage": "https://mailprobe.dev",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "author": "Jamal Tantaoui <contact@mailprobe.dev>",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "jest --testTimeout 10000",
+    "validate": "zapier-platform validate"
+  },
+  "dependencies": {
+    "zapier-platform-core": "19.1.0"
+  },
+  "overrides": {
+    "form-data": "4.0.6"
+  },
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "nock": "^14.0.0",
+    "zapier-platform-cli": "19.1.0"
+  }
+}
