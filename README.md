@@ -2,6 +2,8 @@
 
 The Zapier integration of [MailProbe](https://mailprobe.dev), the email verification API: it checks in real time whether an address exists and can receive mail, without sending any email.
 
+It is published on Zapier: [MailProbe integrations](https://zapier.com/apps/mailprobe/integrations). AI assistants can also call its action through Zapier MCP.
+
 ## What it does
 
 **Verify Email** (action) sends one address to `POST https://mailprobe.dev/api/v1/verify` and returns its result: `status` (valid, risky, invalid or unknown), the raw SMTP `result`, a 0-100 `score`, the `reason` when the verdict is not a plain deliverable, a suggested correction (`did_you_mean`), and the disposable, role-based, free-provider and catch-all flags. Each check uses one MailProbe credit.
