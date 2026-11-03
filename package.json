@@ -15,7 +15,7 @@
     "validate": "zapier-platform validate"
   },
   "dependencies": {
-    "zapier-platform-core": "19.1.0"
+    "zapier-platform-core": "19.3.0"
   },
   "overrides": {
     "form-data": "4.0.6"
